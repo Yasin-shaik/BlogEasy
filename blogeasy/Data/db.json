@@ -1,52 +1,40 @@
 {
   "posts": [
     {
-      "id": "1",
-      "title": "Hello World",
-      "datetime": "December 27, 2022 9:13:20 PM",
-      "body": "This my first axios \"Hello World\" post"
+      "id": 1,
+      "title": "Billboard",
+      "datetime": "November 25, 2024 11:10:30 PM",
+      "body": "Best known for the Hot 100 and Billboard 200, which list the most popular songs and albums each week in the industry. Offers industry news, events, podcasts, and music streaming."
     },
     {
-      "id": "2",
-      "title": "React",
-      "datetime": "December 23, 2022 12:14:16 AM",
-      "body": "React is a free and open-source front-end JavaScript library for building user interfaces based on UI components. It is maintained by Meta and a community of individual developers and companies."
+      "id": 2,
+      "title": "Business Insider",
+      "datetime": "November 25, 2024 11:10:50 PM",
+      "body": "High-end business journalism keeping readers up-to-date on economic news as well as interviews with top entrepreneurs. There’s also educated predictions, trend analyses, and tips."
     },
     {
-      "id": "3",
-      "title": "Node.js",
-      "datetime": "December 23, 2022 12:14:52 AM",
-      "body": "Node.js is an open-source server environment. Node.js is cross-platform and runs on Windows, Linux, Unix, and macOS. Node.js is a back-end JavaScript runtime environment. Node.js runs on the V8 JavaScript Engine and executes JavaScript code outside a web browser."
+      "id": 3,
+      "title": "People",
+      "datetime": "November 25, 2024 11:11:09 PM",
+      "body": "Covers all things showbusiness, including celebrity gossip, entertainment news, and the latest on new shows, movies, and popular books."
     },
     {
-      "id": "4",
-      "title": "Redux",
-      "datetime": "December 23, 2022 12:17:41 AM",
-      "body": "Redux is an open-source JavaScript library for managing and centralizing application state. It is most commonly used with libraries such as React or Angular for building user interfaces."
+      "id": 4,
+      "title": "Entrepreneur",
+      "datetime": "November 25, 2024 11:11:33 PM",
+      "body": "Find business news, webinars and events, book recommendations, and interviews with successful entrepreneurs. The site is updated daily and even has a magazine for longer-form pieces."
     },
     {
-      "id": "5",
-      "title": "Is Axios a REST API?",
-      "datetime": "December 23, 2022 12:16:05 AM",
-      "body": "Axios is an HTTP client library based on promises. It makes sending asynchronous HTTP requests to REST endpoints easier and helps you perform CRUD operations. This REST endpoint/API could be an external API like the Google API, GitHub API, and so on – or it could be your own backend Node."
+      "id": 5,
+      "title": "Seeking Alpha",
+      "datetime": "November 25, 2024 11:12:01 PM",
+      "body": "Seeking Alpha is an investing community which includes millions of passionate investors who connect daily to discuss the latest news, debate the merits of stocks and investment decisions."
     },
     {
-      "id": "6",
-      "title": "JavaScript",
-      "datetime": "December 27, 2022 8:33:27 PM",
-      "body": "JavaScript, often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries."
-    },
-    {
-      "id": "7",
-      "title": "MERN Stack",
-      "datetime": "January 14, 2023 8:44:55 PM",
-      "body": "MERN Stack is a Javascript Stack that is used for easier and faster deployment of full-stack web applications. MERN Stack comprises of 4 technologies namely: MongoDB, Express, React and Node.js. It is designed to make the development process smoother and easier.\n\nEach of these 4 powerful technologies provides an end-to-end framework for the developers to work in and each of these technologies play a big part in the development of web applications."
-    },
-    {
-      "id": "8",
-      "title": "Redux Thunk",
-      "datetime": "March 13, 2023 4:17:55 PM",
-      "body": "Redux Thunk is a middleware for Redux. It allows writing functions with logic inside that can interact with a Redux store's dispatch and getState methods."
+      "id": 6,
+      "title": "The Verge",
+      "datetime": "November 25, 2024 11:12:37 PM",
+      "body": "The Verge is an ambitious multimedia effort founded nine years ago to examine how technology will change life in the future for a massive mainstream audience."
     }
   ]
 }
