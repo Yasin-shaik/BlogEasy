@@ -5,7 +5,7 @@ const Navbar = (props) => {
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
-            Navbar
+            BlogEasy
           </Link>
           <button
             className="navbar-toggler"
@@ -27,7 +27,7 @@ const Navbar = (props) => {
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/new_post">
-                  Posts
+                  New Post
                 </Link>
               </li>
               <li className="nav-item">
