@@ -24,8 +24,7 @@ function App() {
       const response = await api.get('/posts');
       setPosts(response.data);
     } catch (err) {
-      if (err.response) {
-        // Not in the 200 response range 
+      if (err.response) { 
         console.log(err.response.data);
         console.log(err.response.status);
         console.log(err.response.headers);
@@ -66,13 +65,13 @@ function App() {
 
   const handleEdit = async (id) => {
     const datetime = format(new Date(), 'MMMM dd, yyyy pp');
-    const updatedPost = { id, title: postTitle, datetime, body: postBody, postImg: postImg };
+    const updatedPost = { id, title: editTitle, datetime, body: editBody, postImg: editURL };
     try {
       const response = await api.put(`/posts/${id}`, updatedPost);
       setPosts(posts.map(post => post.id === id ? { ...response.data } : post));
-      setEditTitle('');
-      setEditBody('');
-      setEditURL('');
+      // setEditTitle('');
+      // setEditBody('');
+      // setEditURL('');
     } catch (err) {
       console.log(`Error: ${err.message}`);
     }
