@@ -1,40 +1,32 @@
 {
   "posts": [
     {
-      "id": 1,
-      "title": "Billboard",
-      "datetime": "November 25, 2024 11:10:30 PM",
-      "body": "Best known for the Hot 100 and Billboard 200, which list the most popular songs and albums each week in the industry. Offers industry news, events, podcasts, and music streaming."
+      "id": "1",
+      "title": "RBI Governor Shaktikanta Das Hospitalised In Chennai, To Be Discharged Soon",
+      "datetime": "November 26, 2024 10:56:37 AM",
+      "body": "Reserve Bank of India Governor Shaktikanta Das has been admitted to a hospital in Chennai after reportedly experiencing ‘acidity’.\n\nA Reserve Bank of India spokesperson said, “Reserve Bank of India Governor Shri Shaktikanta Das experienced acidity and was admitted to Apollo Hospital, Chennai for observation.\" “He is now doing fine and will be discharged in the next 2-3 hours. There is no cause for concern\", an RBI spokesperson said.\n\nMedical Bulletin on RBI Governor\n\nApollo Hospital, Chennai issued a medical bulletin providing an update on the health of Shaktikanta Das.\n\n“Reserve Bank of India governor Shri Shaktikanta Das experienced acidity yesterday night and was admitted in Apollo Hospital, Chennai for observations. He is now doing fine and there is no cause of concern,\" the hospital said in the statement.",
+      "postImg": "https://images.news18.com/ibnlive/uploads/2024/11/rbi-gov-das-2024-11-527b6cfc88eaf35dfee50fc91333a403.jpg?impolicy=website&width=360&height=270"
     },
     {
-      "id": 2,
-      "title": "Business Insider",
-      "datetime": "November 25, 2024 11:10:50 PM",
-      "body": "High-end business journalism keeping readers up-to-date on economic news as well as interviews with top entrepreneurs. There’s also educated predictions, trend analyses, and tips."
+      "id": "2",
+      "title": "Ancient Egyptian Mug Contained Psychedelic Cocktail With Blood And Breast Milk: Study",
+      "datetime": "November 26, 2024 10:57:26 AM",
+      "body": "A study on a 2,000-year-old Bes mug has unveiled fascinating ritualistic practices performed by the ancient Egyptians. The mug was found to have a diverse combination of psychedelic chemicals, alcohol and human body fluids. The study is part of the Mediterranean Diet Archeology project and was led by Professor Davide Tanasi from the University of South Florida, with the results published in Scientific Reports.\n\nThe use of the Bes mug, specifically designed with the head of Bes — the protection-deity associated with fertility and healing attributes, was previously unknown. Egyptologists were unsure whether the vessel held holy water, milk, wine or beer. However, the recent findings point clearly to its use during rituals, specifically fertility rituals intended to promote safer childbirth and seek divine intervention.",
+      "postImg": "https://images.news18.com/ibnlive/uploads/2024/11/news18-6-2024-11-34392e0c4a24a1fe7a08024ff7e40209.png?impolicy=website&width=360&height=270"
     },
     {
-      "id": 3,
-      "title": "People",
-      "datetime": "November 25, 2024 11:11:09 PM",
-      "body": "Covers all things showbusiness, including celebrity gossip, entertainment news, and the latest on new shows, movies, and popular books."
+      "id": "3",
+      "title": "Salman’s Comments On Mahesh: Fans in Shock",
+      "datetime": "November 26, 2024 10:58:20 AM",
+      "body": "Salman Khan’s recent comments on Telugu superstar Mahesh Babu have taken the internet by storm. In a recent conversation with Shilpa Shirodkar, Mahesh’s sister-in-law, Salman differentiated between the on-screen persona of Mahesh Babu and the person he is in real life. This conversation took place on the sets of Big Boss 18.\n\nRead more at: https://www.m9.news/bollywood/salman-khans-comments-on-mahesh-babu-fans-in-shock/",
+      "postImg": "https://www.m9.news/wp-content/uploads/2024/11/salman-mahesh-collage-copy_1200x900-1024x768.jpg"
     },
     {
-      "id": 4,
-      "title": "Entrepreneur",
-      "datetime": "November 25, 2024 11:11:33 PM",
-      "body": "Find business news, webinars and events, book recommendations, and interviews with successful entrepreneurs. The site is updated daily and even has a magazine for longer-form pieces."
-    },
-    {
-      "id": 5,
-      "title": "Seeking Alpha",
-      "datetime": "November 25, 2024 11:12:01 PM",
-      "body": "Seeking Alpha is an investing community which includes millions of passionate investors who connect daily to discuss the latest news, debate the merits of stocks and investment decisions."
-    },
-    {
-      "id": 6,
-      "title": "The Verge",
-      "datetime": "November 25, 2024 11:12:37 PM",
-      "body": "The Verge is an ambitious multimedia effort founded nine years ago to examine how technology will change life in the future for a massive mainstream audience."
+      "id": "5",
+      "title": "IPL 2025 Auction: Full Squads Of All 10 Teams, Players' Auction Price",
+      "datetime": "November 26, 2024 11:00:15 AM",
+      "body": "The IPL 2025 mega auction saw 182 players sold for a whopping combined fee of Rs 639.15 crore. Rishabh Pant shattered the record of the most expensive purchase, going to Lucknow Super Giants, while Shreyas Iyer was not far behind, moving to Punjab Kings. Indian players were sold at a premium, with Indian fast bowlers doing well on Day 2 of the auction. Here is the team-wise list of the players sold by the end of the second and final day of the Indian Premier League's mega auction here (price in INR):",
+      "postImg": "https://c.ndtvimg.com/2024-11/gihtaie_ipl_625x300_25_November_24.jpg?im=FeatureCrop,algorithm=dnn,width=806,height=605"
     }
   ]
 }

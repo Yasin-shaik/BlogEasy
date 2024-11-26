@@ -19,6 +19,19 @@ const Newpost = (props) => {
           />
         </div>
         <div className="mb-3">
+          <label htmlFor="postTitle" className="form-label">
+            Image URL:
+          </label>
+          <input
+            id="postImg"
+            type="text"
+            className="form-control"
+            required
+            value={props.postImg}
+            onChange={(e) => props.setPostImg(e.target.value)}
+          />
+        </div>
+        <div className="mb-3">
           <label htmlFor="postBody" className="form-label">
             Post:
           </label>

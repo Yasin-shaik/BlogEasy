@@ -14,8 +14,10 @@ function App() {
   const [searchResults, setSearchResults] = useState([]);
   const [postTitle, setPostTitle] = useState('');
   const [postBody, setPostBody] = useState('');
+  const [postImg, setPostImg] = useState('');
   const [editTitle, setEditTitle] = useState('');
   const [editBody, setEditBody] = useState('');
+  const [editURL, setEditURL] = useState('');
 
   const fetchPosts = async () => {
     try {
@@ -49,13 +51,14 @@ function App() {
   const handleSubmit = async (e) => {
     const id = posts.length ? posts[posts.length - 1].id + 1 : 1;
     const datetime = format(new Date(), 'MMMM dd, yyyy pp');
-    const newPost = { id, title: postTitle, datetime, body: postBody };
+    const newPost = { id, title: postTitle, datetime, body: postBody, postImg: postImg };
     try {
       const response = await api.post('/posts', newPost);
       const allPosts = [...posts, response.data];
       setPosts(allPosts);
       setPostTitle('');
       setPostBody('');
+      setPostImg('');
     } catch (err) {
       console.log(`Error: ${err.message}`);
     }
@@ -63,12 +66,13 @@ function App() {
 
   const handleEdit = async (id) => {
     const datetime = format(new Date(), 'MMMM dd, yyyy pp');
-    const updatedPost = { id, title: editTitle, datetime, body: editBody };
+    const updatedPost = { id, title: postTitle, datetime, body: postBody, postImg: postImg };
     try {
       const response = await api.put(`/posts/${id}`, updatedPost);
       setPosts(posts.map(post => post.id === id ? { ...response.data } : post));
       setEditTitle('');
       setEditBody('');
+      setEditURL('');
     } catch (err) {
       console.log(`Error: ${err.message}`);
     }
@@ -78,7 +82,7 @@ function App() {
     try {
       await api.delete(`/posts/${id}`);
       const postsList = posts.filter(post => post.id !== id);
-      setPosts(postsList);
+      setPosts(postsList);  
     } catch (err) {
       console.log(`Error: ${err.message}`);
     }
@@ -91,8 +95,8 @@ function App() {
     <Routes>
       <Route exact path="/" element={<Home posts={searchResults}/>}/>
       <Route exact path="/post/:id" element={<Postpage posts={posts} handleDelete={handleDelete}/>}/>
-      <Route exact path="/edit/:id" element={<Editpost posts={posts} handleEdit={handleEdit} editTitle={editTitle} setEditTitle={setEditTitle} editBody={editBody} setEditBody={setEditBody}/>}/>
-      <Route exact path="/new_post" element={<Newpost handleSubmit={handleSubmit} postTitle={postTitle} setPostTitle={setPostTitle} postBody={postBody} setPostBody={setPostBody}/>}/>
+      <Route exact path="/edit/:id" element={<Editpost posts={posts} handleEdit={handleEdit} editTitle={editTitle} setEditTitle={setEditTitle} editBody={editBody} setEditBody={setEditBody} editURL={editURL} setEditURL={setEditURL}/>}/>
+      <Route exact path="/new_post" element={<Newpost handleSubmit={handleSubmit} postTitle={postTitle} setPostTitle={setPostTitle} postBody={postBody} setPostBody={setPostBody} postImg={postImg} setPostImg={setPostImg}/>}/>
     </Routes>
     </BrowserRouter>
   </>

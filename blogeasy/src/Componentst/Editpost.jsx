@@ -9,8 +9,10 @@ const Editpost = (props) => {
         if (post) {
           props.setEditTitle(post.title);
           props.setEditBody(post.body);
+          props.setEditURL(post.postImg);
+
         }
-    }, [post, props.setEditTitle, props.setEditBody])
+    }, [post, props.setEditTitle, props.setEditBody,props.setEditURL])
   return (
     <div>
       <div className="container my-3">
@@ -21,6 +23,10 @@ const Editpost = (props) => {
                     <div className="mb-3">
                       <label htmlFor="postTitle" className="form-label">Title:</label>
                       <input type="text" required className="form-control" id="postTitle" value={props.editTitle} onChange={(e) => props.setEditTitle(e.target.value)}/>
+                    </div>
+                    <div className="mb-3">
+                      <label htmlFor="postTitle" className="form-label">Image URL:</label>
+                      <input type="text" required className="form-control" id="postTitle" value={props.editURL} onChange={(e) => props.setEditURL(e.target.value)}/>
                     </div>
                     <div className="mb-3">
                       <label htmlFor="postBody" className="form-label">Post:</label>

@@ -9,7 +9,7 @@ const Postpage = (props) => {
                     <>
                         <h2 style={{color:"blue"}}>{post.title}</h2>
                         <p className="postDate">{post.datetime}</p>
-                        <p className="postBody">{post.body}</p>
+                        <p className="text-break" style={{width: "80rem"}}>{post.body}</p>
                         <Link to={`/edit/${post.id}`}><button type="button" className="btn btn-primary m-3">Edit Post</button></Link>
                         <Link to="/"><button type="button" onClick={() => props.handleDelete(post.id)} className="btn btn-primary">Delete Post</button></Link>
                     </>

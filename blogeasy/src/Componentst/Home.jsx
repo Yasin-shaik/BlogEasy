@@ -1,7 +1,6 @@
 import React from 'react'
 import Feed from "./Feed"
 const Home = (props) => {
-  console.log(props.posts);
   return (
     <div>
         <div className="Home">
